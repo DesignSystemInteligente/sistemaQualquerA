@@ -6,6 +6,7 @@
     box-sizing: border-box;
     border-radius: 9px;
     resize: none;
+    padding: 10px;
 }
 
 .clique-enviar {

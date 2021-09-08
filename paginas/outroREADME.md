@@ -1,3 +1,0 @@
-# outroREADME
-
-* teste de estilização

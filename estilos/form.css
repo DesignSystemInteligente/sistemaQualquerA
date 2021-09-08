@@ -1,0 +1,13 @@
+.input_contato {
+    width: 583px;
+    height: 129px;
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 9px;
+    resize: none;
+}
+
+.clique-enviar {
+    display: none;
+}

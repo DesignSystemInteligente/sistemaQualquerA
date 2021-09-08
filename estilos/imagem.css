@@ -1,0 +1,11 @@
+.imagem {
+    position: relative;
+    right: 0;
+    bottom: -37px;
+}
+
+.imagem_card {
+    width: auto;
+    height: 98px;
+    justify-self: center;
+}

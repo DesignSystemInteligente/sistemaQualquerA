@@ -1,0 +1,39 @@
+.template-conteudo_projetos {
+    display: grid;
+    grid-template-columns: 190px 190px;
+    grid-template-areas:
+        "item_card-01_projetos item_card-02_projetos"
+    ;
+    column-gap: 20px;
+}
+
+.item_card-01_projetos {
+    grid-area: item_card-01_projetos;
+}
+
+.item_card-02_projetos {
+    grid-area: item_card-02_projetos;
+}
+
+.template-card_projetos {
+    display: grid;
+    grid-template-columns: 3px auto 3px;
+    grid-template-rows: 120px 1px 49px;
+    grid-template-areas:
+        ". item_imagem_card-projetos ."
+        ". item_linha_card-projetos ."
+        ". item_texto_card-projetos ."
+    ;
+}
+
+.item_imagem_card-projetos {
+    grid-area: item_imagem_card-projetos;
+}
+
+.item_linha_card-projetos {
+    grid-area: item_linha_card-projetos;
+}
+
+.item_texto_card-projetos {
+    grid-area: item_texto_card-projetos;
+}

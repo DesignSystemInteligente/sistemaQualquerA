@@ -1,0 +1,58 @@
+.template-conteudo_contato {
+    display: grid;
+    grid-template-columns: 83px 332px 168px 83px 225px 83px 249px minmax(83px, auto);
+    grid-template-rows: 28px 45px 129px 83px 83px 145px minmax(83px, auto);
+    grid-template-areas:
+        "item_texto_contato item_texto_contato item_texto_contato item_texto_contato item_texto_contato item_texto_contato item_texto_contato item_texto_contato"
+        ". . . . . . . ."
+        "item_mensagem_contato item_mensagem_contato item_mensagem_contato . . . item_instagram_contato ."
+        "item_mensagem_contato item_mensagem_contato item_mensagem_contato .item_linkedin_contato . item_instagram_contato ."
+        ". . . . item_linkedin_contato . . ."
+        ". item_whatsapp_contato . . item_linkedin_contato . . ."
+        ". . . . . . . ."
+    ;
+}
+
+.item_texto_contato {
+    grid-area: item_texto_contato;
+}
+
+.item_mensagem_contato {
+    grid-area: item_mensagem_contato;
+}
+
+.item_whatsapp_contato {
+    grid-area: item_whatsapp_contato;
+}
+
+.item_linkedin_contato {
+    grid-area: item_linkedin_contato;
+}
+
+.item_instagram_contato {
+    grid-area: item_instagram_contato;
+}
+
+.template-mensagem_contato {
+    display: grid;
+    grid-template-columns: 102px 332px 149px;
+    grid-template-rows: 34px 129px 15px 34px;
+    grid-template-areas:
+        "item_label_mensagem-contato . ."
+        "item_input_mensagem-contato item_input_mensagem-contato item_input_mensagem-contato"
+        ". . ."
+        ". . item_botao_mensagem-contato"
+    ;
+}
+
+.item_label_mensagem-contato {
+    grid-area: item_label_mensagem-contato;
+}
+
+.item_input_mensagem-contato {
+    grid-area: item_input_mensagem-contato;
+}
+
+.item_botao_mensagem-contato {
+    grid-area: item_botao_mensagem-contato;
+}

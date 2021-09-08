@@ -1,0 +1,31 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.titulo-projeto {
+    font-size: 30px;
+    line-height: 37px;
+    color: #9933FF;
+}
+
+.texto_card {
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    align-self: center;
+}
+
+.espaco_bottom-30 {
+    margin-bottom: 30px;
+}
+
+a.link-texto, a.link-texto:hover, a.link-texto:focus, a.link-texto:active, a.link-texto:visited {
+    color: #9933FF;
+    text-decoration: underline;
+}

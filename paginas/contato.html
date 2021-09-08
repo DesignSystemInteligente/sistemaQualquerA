@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="../estilos/reset.css" rel="stylesheet">
+  <link href="http://fonts.cdnfonts.com/css/league-spartan" rel="stylesheet">
+  <link href="../estilos/botao.css" rel="stylesheet">
+  <link href="../estilos/form.css" rel="stylesheet">
+  <link href="../estilos/layout_principal.css" rel="stylesheet">
+  <link href="../estilos/layout_contato.css" rel="stylesheet">
+  <link href="../estilos/moldura.css" rel="stylesheet">
+  <link href="../estilos/texto.css" rel="stylesheet">
+  <style>
+    @import url('http://fonts.cdnfonts.com/css/league-spartan');
+  </style>
+  <title>Sistema Qualquer A</title>
+</head>
+<body>
+  <div class="template-principal">
+    <div class="moldura-vertical item_moldura-vertical"></div>
+    
+      <a href="../index.html" class="botao botao-primario item_botao-sobre">
+        Sobre
+      </a>
+      
+      <a href="../paginas/projetos.html" class="botao botao-primario item_botao-projetos">Projetos</a>
+      
+      <div class="botao botao-ativo item_botao-contato">Contato</div>
+      
+      <div class="item_conteudo template-conteudo_contato">
+          <p class="item_texto_contato">
+            Ficou afim de entrar em contato comigo, é só escolher o formato que você deseja:
+          </p>
+
+          <form action="" method="get" class="item_mensagem_contato template-mensagem_contato">
+            <label for="GET-name" class="item_label_mensagem-contato" >Mensagem:</label>
+            <textarea id="GET-name" type="text" name="name" class="input_contato item_input_mensagem-contato"></textarea>
+            <button type="button" class="botao botao-secundario item_botao_mensagem-contato" onclick="enviarEmail()">Enviar</button>
+            <a id="GET-email-link" href="mailto:marinamicas@gmail.com?Subject=Contato%20pelo%20Sistema%20Qualquer&Body=" class="clique-enviar"></a>
+          </form>
+        
+          <a href="https://wa.me/5521985487666?Sua%20mensagem%20aqui!" class="item_whatsapp_contato" title="Acessar whatsapp da Marina Micas">
+            <img src="../imagens/whatsapp.png" alt="Ícone roxo do whatsapp com o número (21) 98548-7666" />
+          </a>
+
+          <a href="https://www.linkedin.com/in/marina-micas-jardim-703b3316/" class="item_linkedin_contato" title="Acessar linkedin da Marina Micas">
+            <img src="../imagens/linkedin.png" alt="Ícone roxo do linkedin com a minha foto de perfil do linkedin" />
+          </a>
+
+          <a href="https://www.instagram.com/micasdesigner/" class="item_instagram_contato" title="Acessar instagram da Marina Micas">
+            <img src="../imagens/instagram.png" alt="Ícone roxo do instagram com meu id @micasdesigner do instagram" />
+          </a>
+      </div>
+
+    <div class="moldura-horizontal item_moldura-horizontal"></div>
+
+  </div>
+</body>
+<script src="../codigos/envioEmail.js"></script>
+</html>

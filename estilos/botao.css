@@ -1,0 +1,37 @@
+.botao {
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 9px;
+    width: 149px;
+    height: 34px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.botao-ativo {
+    background: #FFFFFF;
+}
+
+.botao-primario, .botao-primario a {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.botao-primario:hover {
+    background: #000000cc;
+}
+
+.botao-secundario, .botao-secundario a {
+    background: #9933FF;
+    border: 3px solid #9933FF;
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,16 @@
+.template-conteudo_sobre {
+    display: grid;
+    grid-template-columns: auto 592px;
+    grid-template-areas:
+        "item_textos_sobre item_imagem_sobre"
+    ;
+}
+
+.item_textos_sobre {
+    grid-area: item_textos_sobre;
+}
+
+.item_imagem_sobre {
+    grid-area: item_imagem_sobre;
+    align-self: end;
+}

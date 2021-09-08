@@ -1,0 +1,38 @@
+.template-principal {
+    display: grid;
+    grid-template-columns: 30px 149px 20px 149px 20px 149px auto 592px 30px;
+    grid-template-rows: 30px 34px 30px auto 30px 30px;
+    grid-template-areas:
+        ". . . . . . . . item_moldura-vertical"
+        ". item_botao-sobre . item_botao-projetos . item_botao-contato . . item_moldura-vertical"
+        ". . . . . . . . item_moldura-vertical"
+        ". item_conteudo item_conteudo item_conteudo item_conteudo item_conteudo item_conteudo item_conteudo item_moldura-vertical"
+        ". . . . . . . . item_moldura-vertical"
+        "item_moldura-horizontal item_moldura-horizontal item_moldura-horizontal item_moldura-horizontal item_moldura-horizontal item_moldura-horizontal item_moldura-horizontal item_moldura-horizontal item_moldura-horizontal"
+    ;
+    height: 100vh;
+}
+
+.item_botao-sobre {
+    grid-area: item_botao-sobre;
+}
+
+.item_botao-projetos {
+    grid-area: item_botao-projetos;
+}
+
+.item_botao-contato {
+    grid-area: item_botao-contato;
+}
+
+.item_conteudo {
+    grid-area: item_conteudo;
+}
+
+.item_moldura-vertical {
+    grid-area: item_moldura-vertical;
+}
+
+.item_moldura-horizontal {
+    grid-area: item_moldura-horizontal;
+}
